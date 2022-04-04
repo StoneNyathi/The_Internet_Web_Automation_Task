@@ -1,10 +1,10 @@
 [![Soum_QA_Tech_Lead_Interview](https://img.shields.io/endpoint?url=https://dashboard.cypress.io/badge/detailed/ecw8af&style=flat&logo=cypress)](https://dashboard.cypress.io/projects/ecw8af/runs)
 
 # Pre-Requisite:
-Clone the Repo from Git-hub
-Open the project via the preferred IDE
-Install Cypress
-Install npm via terminal
+1. Clone the Repo from Git-hub
+2. Open the project via the preferred IDE
+3. Install Cypress
+4. Install npm via terminal
 
 - Run the command 
   - npm run cypress

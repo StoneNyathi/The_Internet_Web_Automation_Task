@@ -10,6 +10,6 @@ Install npm via terminal
   - npm run cypress
   - Once opened select the Test named 'the_internet_testSuite.spec.js'
   
---In addition can also run the recording using this command
+  -- In addition can also run the recording using this command
   -- npx cypress run --record --key 2dd6933a-44bb-4d92-8d52-97ca6cd0f092
 

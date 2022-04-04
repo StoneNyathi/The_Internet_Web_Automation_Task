@@ -3,11 +3,8 @@ import * as constants from "/Users/lukhanyolitye/Documents/Personal_Docies/Soum_
 
 describe('The Internet TestSuite', () =>{
 
-before(() => {
-cy.visit(constants.DEFAULT_URL);
-});
-
 it('Verify & Select 5 Elements in the list menu', function(){
+    cy.visit(constants.DEFAULT_URL);
     cy.contains('Floating Menu').click()
     cy.url().should('include','/floating_menu')
     cy.visit(constants.DEFAULT_URL)
@@ -18,10 +15,10 @@ it('Verify & Select 5 Elements in the list menu', function(){
     cy.url().should('include','/login')
     cy.visit(constants.DEFAULT_URL)
     cy.contains('Frames').click()
+
     cy.url().should('include','/frames')
     cy.visit(constants.DEFAULT_URL)
     cy.contains('Geolocation').click()
     cy.url().should('include','/geolocation')
-    cy.visit(constants.DEFAULT_URL)
     })
 })
